@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(41, 190, 240);
+    padding: 2px;
+    color: white;
+}
+
+.content{
+  width: 1000px;
+  margin: auto;
+}
+
+.title{
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+
+
+section{
+  color: white;
+  padding: 20px;
+  background-image: url(../Imagens_pag_captura/people.jpg);
+  background-size: cover;
+  overflow: hidden;
+  /*overflow: hidden aqui, fará com a imagem preencha tudo
+  o que tem que preencher no section*/
+
+}
+
+.form-conteiner{
+    max-width: 230px;
+    background-color: rgba(128, 128, 128, 0.767);
+    color: black;
+    padding: 20px;
+    float: right;
+    border-radius: 3px;
+    
+}
+
+h2{ 
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.margin-botton{
+  margin-bottom: 15px;
+}
+
+input, select{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      border: none;
+      margin-bottom: 10px;
+      border-radius: 3px;
+}
+
+input[type="submit"]{
+  background-color: lightblue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /*Esses 3 elementos: Para retirar a setinha do select, pois 
+  dependendo do navegador o estilo da setinha muda */
+
+  background-image: url(/Imagens/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  /*100% no eixo x(horizontal), menos 10px*/
+  background-position-y: center;
+  /*centralizar no eix y(vertical)*/
+  
+
+}
+
+footer{
+  background-color: rgb(31, 31, 31);
+  padding: 40px;
+  text-align: center;
+}
+
+.picture{
+  width: 160px;
+}
+
+.description{
+  color: white;
+  display: inline-block;
+  max-width: 40%;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.description p, .description h3 {
+  margin-bottom:20px ;
+}
+
